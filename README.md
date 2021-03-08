@@ -20,6 +20,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The details of the data contained in the dataset are located within the "README.txt", "features.txt", "features_info.txt" and "activity_labels.txt" files located in the original dataset folder
 
 The details of the experiment are described in this paper :
+
 *Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.*
 
 ## REPOSITORY

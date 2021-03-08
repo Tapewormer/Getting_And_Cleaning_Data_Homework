@@ -1,4 +1,6 @@
-### Getting and Cleaning Data Course Project ###
+############################################
+# Getting and Cleaning Data Course Project #
+############################################
 
 # Goals :
 # 1 - Merges the training and the test sets to create one data set.

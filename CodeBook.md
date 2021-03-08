@@ -28,16 +28,16 @@ FILES used by the script are :
 # SCRIPT - DATA TRANSFORMATION
 The script is named "run_analysis.R"
 
-- 1 After download, each of the 3 files from the training group (X_train, y_train, subject_train) are merged horizontally with its testing group counterpart and stored into 3 tibble objects : subjects_all, activity_all, variable_all
-- 2 subjects_all's only column is renamed "subject_id"
-- 3 activity_all's only column is renamed "activity"
-- 4 activity_all values are transformed from their numeric label to descriptive word (e.g. "1" becomes "WALKING") 
-- 5 variable_all's 561 columns are renamed according to the type of observations they contains as provided by the file "features.txt"
-- 6 variable_all is then reduced to an object containing only the observations related to means and standard deviations resulting into a 66 columns dataframe.
-- 7 Each of the 3 curated objects subjects_all, activity_all, variable_all are merged vertically into a dataframe named
+1. After download, each of the 3 files from the training group (X_train, y_train, subject_train) are merged horizontally with its testing group counterpart and stored into 3 tibble objects : subjects_all, activity_all, variable_all
+2. subjects_all's only column is renamed "subject_id"
+3. activity_all's only column is renamed "activity"
+4. activity_all values are transformed from their numeric label to descriptive word (e.g. "1" becomes "WALKING") 
+5. variable_all's 561 columns are renamed according to the type of observations they contains as provided by the file "features.txt"
+6. variable_all is then reduced to an object containing only the observations related to means and standard deviations resulting into a 66 columns dataframe.
+7. Each of the 3 curated objects subjects_all, activity_all, variable_all are merged vertically into a dataframe named
 merged_all of dimension (7352+2947) = 10299 rows and (1+1+66) = 68 columns. The first two columns being the subject_id and the type of activity.
-- 8 merged_all is grouped by two factors "subject_id" and "activity". The average of each variable for each activity and each subject is computed. 
-- 9 The result of the computation is stored in a comma separated file named "UCI_HAR_tidy_dataset.csv".  
+8. merged_all is grouped by two factors "subject_id" and "activity". The average of each variable for each activity and each subject is computed. 
+9. The result of the computation is stored in a comma separated file named "UCI_HAR_tidy_dataset.csv".  
 ###
 
 

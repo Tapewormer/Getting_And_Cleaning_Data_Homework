@@ -20,11 +20,17 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The details of the data contained in the dataset are located within the "README.txt", "features.txt", "features_info.txt" and "activity_labels.txt" files located in the original dataset folder
 
 The details of the experiment are described in this paper :
+<<<<<<< HEAD
 
 *Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.*
 
 ## REPOSITORY
 Apart from this README, this repository contains :
+=======
+*Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.*
+
+## REPOSITORY
+Appart from this README, this repository contains :
 - "UCI_HAR_tidy_dataset.csv" : a tidy data set as described above. 
 - "run_analysis.R"           : the script used to get, clean the data and perform the analysis. 
 - "CodeBook.md"              : a code book that describes the variables, the data, and transformations performed to clean up the data. Also explains how the script work.

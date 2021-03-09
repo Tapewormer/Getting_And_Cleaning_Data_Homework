@@ -78,8 +78,7 @@ result <- merged_all %>%
           summarise(across(1:66, mean))
 
 # Save the results in a file
-write.csv(result, file="UCI_HAR_tidy_dataset.csv", row.names=FALSE)
-          
+write.table(result, file="UCI_HAR_tidy_dataset.txt", row.name=FALSE)
 
 
 
